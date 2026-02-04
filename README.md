@@ -1,5 +1,5 @@
 # Ex.No:1a  			Study of Socket Programming
-
+# Register no:212225100051
 ## Aim: 
 To perform a study on Socket Programming
 ## Introduction:
@@ -52,6 +52,51 @@ Socket programming finds applications in various domains, including web developm
 3.	File Transfer Protocol: Protocols like FTP (File Transfer Protocol) utilize socket programming for transferring files between a client and a server.
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
+
+## ALGORITHM:
+
+Server side:
+
+1.Start
+2.Import the socket module
+3.Create a socket using socket.socket()
+4.Display “Socket successfully created”
+5.Assign port number 12345
+6.Bind the socket to the port number
+7.Display “socket binded to 12345”
+8.Put the socket into listening mode using listen()
+9.Display “socket is listening”
+10.Stop
+
+Client side:
+
+1.Start
+2.Import the socket module
+3.Create a socket using socket.socket()
+4.Assign port number 12345
+5.Connect to the server using IP address 127.0.0.1 and port number
+6.Receive data from the server
+7.Decode the received data
+8.Display the received message
+9.Close the socket connection
+10.Stop
+
+## PROGRAM:
+
+Server side:
+
+<img width="755" height="464" alt="image" src="https://github.com/user-attachments/assets/2667d08a-cf9e-4486-9043-9dfacfa60136" />
+
+Client side:
+
+<img width="553" height="222" alt="image" src="https://github.com/user-attachments/assets/183ea928-0b1c-40be-ae99-4cf7986d678f" />
+
+## OUTPUT:
+
+<img width="940" height="236" alt="image" src="https://github.com/user-attachments/assets/ddf4ce09-592f-4363-8c3c-1d13a7acc9e4" />
+
+<img width="940" height="198" alt="image" src="https://github.com/user-attachments/assets/ceca7955-941b-4d83-a58c-d94985b0eafe" />
+
 
 
 ## Result:
