@@ -57,29 +57,29 @@ Socket programming finds applications in various domains, including web developm
 
 Server side:
 
-1.Start
-2.Import the socket module
-3.Create a socket using socket.socket()
-4.Display “Socket successfully created”
-5.Assign port number 12345
-6.Bind the socket to the port number
-7.Display “socket binded to 12345”
-8.Put the socket into listening mode using listen()
-9.Display “socket is listening”
-10.Stop
+1. Start
+2. Import the socket module
+3. Create a socket using socket.socket()
+4. Display “Socket successfully created”
+5. Assign port number 12345
+6. Bind the socket to the port number
+7. Display “socket binded to 12345”
+8. Put the socket into listening mode using listen()
+9. Display “socket is listening”
+10. Stop
 
 Client side:
 
-1.Start
-2.Import the socket module
-3.Create a socket using socket.socket()
-4.Assign port number 12345
-5.Connect to the server using IP address 127.0.0.1 and port number
-6.Receive data from the server
-7.Decode the received data
-8.Display the received message
-9.Close the socket connection
-10.Stop
+1. Start
+2. Import the socket module
+3. Create a socket using socket.socket()
+4. Assign port number 12345
+5. Connect to the server using IP address 127.0.0.1 and port number
+6. Receive data from the server
+7. Decode the received data
+8. Display the received message
+9. Close the socket connection
+10. Stop
 
 ## PROGRAM:
 
